@@ -22,6 +22,7 @@ blocks:
           - cd martor_demo
           - 'python manage.py makemigrations '
           - python manage.py migrate
+          - cd..
 agent:
   machine:
     type: e1-standard-2
